@@ -1,0 +1,52 @@
+.candleFinal-image {
+    position: absolute;
+    top: 110px;
+    left: 160px;
+}
+
+.completion-title {
+    position: absolute;
+    font-family: 'Pixelify Sans';
+    top: 110px;
+    color: black;
+    font-size: 30px;
+    left: 40px;
+}
+
+.completion-text {
+    position: absolute;
+    font-family: 'Pixelify Sans';
+    top: 175px;
+    color: black;
+    left: 40px;
+}
+
+.continue-button {
+    position: absolute;
+    top: 450px;
+    font-size: 18px;
+    left: 130px;
+    font-family: 'Pixelify Sans';
+    border: #FFD500 3px solid;
+    background-color: #FFF394;
+    border-radius: 30px;
+}
+
+.continue-button:hover {
+    background-color: #FFEA76;
+}
+
+.exitLast-button {
+    position: absolute;
+    top: 450px;
+    right: 130px;
+    font-size: 18px;
+    font-family: 'Pixelify Sans';
+    border: #FFD500 3px solid;
+    background-color: #FFF394;
+    border-radius: 30px;
+}
+
+.exitLast-button:hover {
+    background-color: #FFEA76;
+}

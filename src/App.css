@@ -1,0 +1,81 @@
+.app-box {
+  background-color: #F06292;
+  height: 550px;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+}
+
+.candle-image {
+  margin-top: 20px;
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+  border-color: #D81B60;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.title {
+  font-family: 'Pixelify Sans';
+  color: black;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+.window-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+  justify-content: flex-end;
+  position: absolute;
+  padding: 0;
+  top: 5px;
+  right: 10px;
+}
+
+.minimize-button, .close-button {
+  height: 35px;
+  width: 35px;
+  border: none;
+  background: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.minimize-button img, .close-button img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.candleFirst-image {
+  position: absolute;
+  height: 150px;
+  top: 200px;
+  left: 207px;
+}
+
+.table-image {
+  position: absolute;
+  height: 200px;
+  top: 300px;
+  left: 190px;
+}
+
+.start-button {
+  border-radius: 20px;
+  background-color: #F06292;
+  border: #D81B60 3px solid;
+  font-family: 'Pixelify Sans';
+  position: absolute;
+  top: 400px;
+  left: 230px;
+}

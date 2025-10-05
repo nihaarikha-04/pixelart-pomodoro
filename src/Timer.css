@@ -1,0 +1,114 @@
+.timer-page {
+    background-color: #F06292;
+    height: 550px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.timer-title {
+    font-family: 'Pixelify Sans';
+    color: black;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.setTime-title {
+    font-family: 'Pixelify Sans';
+    color: black;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    top: 100px;
+    font-size: 40px;
+}
+
+.bg-image {
+    background-color: #FFB5B5;
+    margin-top: 20px;
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    border-color: #D81B60;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.work-label {
+    font-family: 'Pixelify Sans';
+    top: 250px;
+    position: absolute;
+    font-size: 27px;
+    padding-bottom: 10px;
+    color: black;
+    left: 100px;
+}
+
+.break-label {
+    font-family: 'Pixelify Sans';
+    top: 300px;
+    position: absolute;
+    font-size: 27px;
+    padding-bottom: 10px;
+    color: black;
+    left: 100px;
+}
+
+.begin-button {
+    position: absolute;
+    top: 400px;
+    left: 175px;
+    font-family: 'Pixelify Sans';
+    border: #FFD500 3px solid;
+    background-color: #FFF394;
+    border-radius: 20px;
+}
+
+.begin-button:hover {
+    background-color: #FFEA76;
+}
+
+.back-button {
+    position: absolute;
+    border-radius: 20px;
+    top: 400px;
+    right: 175px;
+    font-family: 'Pixelify Sans';
+    border: #FFD500 3px solid;
+    background-color: #FFF394;
+}
+
+.back-button:hover {
+    background-color: #FFEA76;
+}
+
+input {
+    font-family: 'Pixelify Sans';
+    position: absolute;
+    background-color: #F06292;
+    border-color: #D81B60;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 25px;
+    width: 50px;
+    color: black;
+}
+
+.work-input {
+    top: 255px;
+    right: 160px;
+    
+}
+
+.break-input {
+    top: 305px;
+    right: 150px;
+}
