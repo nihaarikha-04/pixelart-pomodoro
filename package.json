@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "main": "public/main.cjs",
+  "main": "main.cjs",
   "homepage": "./",
   "scripts": {
     "dev": "vite",
