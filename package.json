@@ -51,14 +51,12 @@
     "win": {
       "target": [
         "nsis"
-      ],
-      "icon": "public/vite.svg"
+      ]
     },
     "mac": {
       "target": [
         "dmg"
       ],
-      "icon": "public/vite.svg",
       "category": "public.app-category.productivity"
     },
     "linux": {
@@ -66,7 +64,6 @@
         "AppImage",
         "deb"
       ],
-      "icon": "public/vite.svg",
       "category": "Utility"
     }
   }
