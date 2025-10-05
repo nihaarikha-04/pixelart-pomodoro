@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "type": "module",
   "main": "main.cjs",
-  "homepage": "./",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -46,8 +45,8 @@
     },
     "files": [
       "dist/**/*",
-      "public/main.cjs",
-      "public/preload.js",
+      "main.cjs",
+      "preload.js",
       "node_modules/**/*"
     ],
     "win": {
