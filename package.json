@@ -2,7 +2,6 @@
   "name": "pomodoro",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
   "main": "main.cjs",
   "scripts": {
     "dev": "vite",
@@ -46,20 +45,20 @@
     "files": [
       "dist/**/*",
       "main.cjs",
-      "preload.js",
+      "preload.cjs",
       "node_modules/**/*"
     ],
     "win": {
       "target": [
         "nsis"
       ],
-      "icon": "public/icon.png"
+      "icon": "public/vite.svg"
     },
     "mac": {
       "target": [
         "dmg"
       ],
-      "icon": "public/icon.icns",
+      "icon": "public/vite.svg",
       "category": "public.app-category.productivity"
     },
     "linux": {
@@ -67,7 +66,7 @@
         "AppImage",
         "deb"
       ],
-      "icon": "public/icon.png",
+      "icon": "public/vite.svg",
       "category": "Utility"
     }
   }
